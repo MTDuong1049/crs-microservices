@@ -1,28 +1,44 @@
 package vn.edu.crs.course_service.controller;
 
+import jakarta.validation.Valid;
+import lombok.RequiredArgsConstructor;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-import vn.edu.crs.course_service.entity.Course;
-import vn.edu.crs.course_service.repository.CourseRepository;
+import vn.edu.crs.course_service.dto.CourseDTO;
+import vn.edu.crs.course_service.service.CourseService;
 
 import java.util.List;
 
 @RestController
 @RequestMapping("/courses")
+@RequiredArgsConstructor
 public class CourseController {
-
-    private final CourseRepository courseRepository;
-
-    public CourseController(CourseRepository courseRepository) {
-        this.courseRepository = courseRepository;
-    }
+    private final CourseService courseService;
 
     @GetMapping
-    public List<Course> getAllCourses() {
-        return courseRepository.findAll();
+    public List<CourseDTO> getAll() {
+        return courseService.getAll();
+    }
+
+    @GetMapping("/{id}")
+    public CourseDTO getById(@PathVariable Long id) {
+        return courseService.getById(id);
     }
 
     @PostMapping
-    public Course createCourse(@RequestBody Course course) {
-        return courseRepository.save(course);
+    @ResponseStatus(HttpStatus.CREATED)
+    public CourseDTO create(@Valid @RequestBody CourseDTO dto) {
+        return courseService.create(dto);
+    }
+
+    @PutMapping("/{id}")
+    public CourseDTO update(@PathVariable Long id, @Valid @RequestBody CourseDTO dto) {
+        return courseService.update(id, dto);
+    }
+
+    @DeleteMapping("/{id}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    public void delete(@PathVariable Long id) {
+        courseService.delete(id);
     }
 }

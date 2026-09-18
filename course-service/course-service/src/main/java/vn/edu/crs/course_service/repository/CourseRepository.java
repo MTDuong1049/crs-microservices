@@ -6,4 +6,5 @@ import vn.edu.crs.course_service.entity.Course;
 
 @Repository
 public interface CourseRepository extends JpaRepository<Course, Long> {
+    boolean existsByTenMonHocIgnoreCase(String tenMonHoc);
 }
