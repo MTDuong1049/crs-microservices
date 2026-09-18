@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="19ad1f8b-3033-4783-951d-96dc2c177b78" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../course-service/course-service/src/main/java/vn/edu/crs/course_service/controller/InternalCourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration-service/src/main/java/vn/edu/crs/registration_service/client/CourseClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration-service/src/main/java/vn/edu/crs/registration_service/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration-service/src/main/java/vn/edu/crs/registration_service/controller/RegistrationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration-service/src/main/java/vn/edu/crs/registration_service/dto/RegistrationRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration-service/src/main/java/vn/edu/crs/registration_service/entity/Registration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration-service/src/main/java/vn/edu/crs/registration_service/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration-service/src/main/java/vn/edu/crs/registration_service/repository/RegistrationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration-service/src/main/java/vn/edu/crs/registration_service/service/RegistrationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-service/course-service/src/main/java/vn/edu/crs/course_service/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course-service/course-service/src/main/java/vn/edu/crs/course_service/controller/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-service/course-service/src/main/java/vn/edu/crs/course_service/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course-service/course-service/src/main/java/vn/edu/crs/course_service/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-service/course-service/src/main/java/vn/edu/crs/course_service/repository/CourseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course-service/course-service/src/main/java/vn/edu/crs/course_service/repository/CourseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-service/course-service/src/main/java/vn/edu/crs/course_service/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course-service/course-service/src/main/java/vn/edu/crs/course_service/service/CourseService.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="ms-21" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="ms-21" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3JUeAQlkd24v6MOgypHAvE1pM69" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.RegistrationServiceApplication.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/huong-dvu/lab1/crs-microservices/registration-service",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="RegistrationServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="registration-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="vn.edu.crs.registration_service.RegistrationServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vn.edu.crs.registration_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.RegistrationServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-63390994e64e-intellij.indexing.shared.core-IU-262.8665.337" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.8665.337" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="19ad1f8b-3033-4783-951d-96dc2c177b78" name="Changes" comment="" />
+      <created>1789719929803</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1789719929803</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
